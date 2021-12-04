@@ -1,0 +1,23 @@
+What is a hyperparameter?
+
+A hyperparameter is a parameter that is set before the learning process begins. These parameters are tunable and can directly affect how well a model trains. Some examples of hyperparameters in machine learning:
+
+Learning Rate
+Number of Epochs
+Momentum
+Regularization constant
+Number of branches in a decision tree
+Number of clusters in a clustering algorithm (like k-means)
+
+
+
+
+Optimizing Hyperparameters
+Hyperparameters can have a direct impact on the training of machine learning algorithms. Thus, in order to achieve maximal performance, it is important to understand how to optimize them. Here are some common strategies for optimizing hyperparameters:
+Grid Search: Search a set of manually predefined hyperparameters for the best performing hyperparameter. Use that value. (This is the traditional method)
+Random Search: Similar to grid search, but replaces the exhaustive search with random search. This can outperform grid search when only a small number of hyperparameters are needed to actually optimize the algorithm.
+Bayesian Optimization: Builds a probabilistic model of the function mapping from hyperparameter values to the target evaluated on a validation set. 
+Gradient-Based Optimization: Compute gradient using hyperparameters and then optimize hyperparameters using gradient descent.
+Evolutionary Optimization
+
+: Uses evolutionary algorithms (e.g. genetic functions) to search the space of possible hyperparameters. 
